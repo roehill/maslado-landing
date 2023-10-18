@@ -1,0 +1,19 @@
+.container {
+  height: 60px;
+  padding: 0 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 11px 12px 0px rgba(0, 0, 0, 0.03);
+}
+
+.accountButton {
+  color: #fff;
+  width: 133px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  height: 34px;
+  border-radius: 30px;
+  background-color: var(--primaryColor);
+}

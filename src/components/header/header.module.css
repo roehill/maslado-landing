@@ -1,0 +1,40 @@
+.heroImage {
+  height: 70vh;
+  min-height: 500px;
+}
+
+.image {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  height: 500px;
+  width: 100vw;
+  background-image: url("../../../public/heroImage.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.heroText {
+  display: flex;
+  gap: 40px;
+  height: 300px;
+}
+
+.register {
+  flex: 1;
+}
+
+.heroParagraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+
+  text-align: center;
+  line-height: 154.9%;
+  letter-spacing: 0.8px;
+}
+
+.brand {
+  font-weight: 500;
+}

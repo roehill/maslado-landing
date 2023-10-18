@@ -1,0 +1,41 @@
+.input {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+div.input span {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: none;
+}
+
+input:invalid[focused="true"] {
+  border: 1px solid red;
+}
+
+input:invalid[focused="true"] ~ span {
+  display: block;
+}
+
+label {
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+input[type="email"] {
+  border: none;
+  width: 100%;
+  margin: 5px 0;
+  height: 40px;
+  box-shadow: 6px 7px 9px -1px rgba(0, 0, 0, 0.03);
+  border-radius: 2px;
+  padding: 0 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 36px;
+  color: var(--textColor);
+}

@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 60px;
+  min-height: 500px;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  left: -80px;
+  height: 100%;
+  width: 100vw;
+  z-index: -1;
+  background-color: #0094ea17;
+}
+
+.card {
+  flex: 1;
+  padding: 30px;
+  border-radius: 2px;
+  min-height: 320px;
+  background: #fff;
+}
+
+.cardTitle {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cardBody {
+  line-height: 175%;
+  letter-spacing: 0.7px;
+}

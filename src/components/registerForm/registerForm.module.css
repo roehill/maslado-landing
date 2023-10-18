@@ -1,0 +1,40 @@
+.container {
+  background-color: #fff;
+  text-align: center;
+  padding: 40px;
+  transform: translateY(-450px);
+  width: 500px;
+  min-height: 700px;
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.13);
+}
+
+.title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+
+.terms {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.submitButton {
+  margin-top: 40px;
+  width: 160px;
+  height: 45px;
+  border-radius: 2px;
+  background: var(--primaryColor);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.confirm {
+  padding-top: 100px;
+}
+
+.error {
+  color: red;
+}

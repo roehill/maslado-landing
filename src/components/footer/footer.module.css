@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100vw;
+  z-index: -1;
+  background-color: #343434;
+}
+
+.footerBody {
+  padding: 40px;
+  width: 600px;
+  margin: 0 auto;
+  color: white;
+}
+
+.brand {
+  font-weight: 500;
+}
