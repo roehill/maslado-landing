@@ -4,14 +4,12 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
-  margin-top: 60px;
   min-height: 500px;
 }
 
 .container::before {
   content: "";
   position: absolute;
-  left: -80px;
   height: 100%;
   width: 100vw;
   z-index: -1;
@@ -22,7 +20,7 @@
   flex: 1;
   padding: 30px;
   border-radius: 2px;
-  min-height: 320px;
+  min-height: 380px;
   background: #fff;
 }
 
@@ -37,4 +35,27 @@
 .cardBody {
   line-height: 175%;
   letter-spacing: 0.7px;
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    gap: 20px;
+  }
+  .card {
+    min-height: 450px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0;
+  }
+  .card {
+    min-height: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
 }

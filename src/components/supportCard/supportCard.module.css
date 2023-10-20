@@ -1,5 +1,5 @@
 .container {
-  padding: 80px;
+  padding: 80px 0;
   text-align: center;
 }
 
@@ -14,4 +14,19 @@
   padding: 0 250px;
   line-height: 154.9%;
   letter-spacing: 0.8px;
+}
+
+@media screen and (max-width: 1280px) {
+  .cardBody {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 640px) {
 }

@@ -49,4 +49,21 @@ p {
 button {
   border: none;
   cursor: pointer;
+  font-family: inherit;
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 640px) {
 }

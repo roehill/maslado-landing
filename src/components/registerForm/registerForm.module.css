@@ -2,7 +2,7 @@
   background-color: #fff;
   text-align: center;
   padding: 40px;
-  transform: translateY(-450px);
+  transform: translateY(-60vh);
   width: 500px;
   min-height: 700px;
   box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.13);
@@ -37,4 +37,8 @@
 
 .error {
   color: red;
+}
+
+.privacyPolicy {
+  text-decoration: underline;
 }
