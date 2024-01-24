@@ -73,7 +73,7 @@ const RegisterForm = () => {
     };
 
     await axios
-      .post("https://www.maslado-api.online/api/users/signup", user)
+      .post("https://www.maslado-api.com/api/users/signup", user)
       .then((response) => {
         setIsConfirmed(true);
       })

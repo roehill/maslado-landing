@@ -8,7 +8,9 @@ const Navbar = () => {
 
   return (
     <div className={styles.container}>
-      <h3>Maslado</h3>
+      <h3 className={styles.logo} onClick={() => router.push("https://maslado.com")}>
+        Maslado
+      </h3>
       <button className={styles.accountButton} onClick={() => router.push("https://app.maslado.com/login")}>
         Twoje Konto
       </button>

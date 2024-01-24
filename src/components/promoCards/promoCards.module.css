@@ -35,6 +35,7 @@
 .cardBody {
   line-height: 175%;
   letter-spacing: 0.7px;
+  text-align: justify;
 }
 
 @media screen and (max-width: 1280px) {

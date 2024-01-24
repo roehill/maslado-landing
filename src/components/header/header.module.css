@@ -41,6 +41,7 @@
 
 .brand {
   font-weight: 500;
+  font-size: 15px;
 }
 
 .heroTextSmall {
@@ -98,5 +99,21 @@
 @media screen and (max-width: 640px) {
   .wrapper {
     max-width: 475px;
+  }
+  .heroText {
+    height: 400px;
+  }
+  .heroTextSmall {
+    left: 20px;
+  }
+  .heroTextSmall {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .image {
+    background-image: url("/");
+    background-color: #f5f1f2;
   }
 }
