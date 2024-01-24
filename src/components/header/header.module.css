@@ -7,11 +7,16 @@
   position: absolute;
   top: 60px;
   left: 0;
-  height: 500px;
+  height: 70vh;
+  min-height: 500px;
   width: 100vw;
   background-image: url("../../../public/heroImage.jpg");
   background-size: cover;
   background-position: bottom;
+}
+
+.heroTextSmall {
+  display: none;
 }
 
 .heroText {
@@ -29,7 +34,6 @@
   flex-direction: column;
   justify-content: center;
   flex: 1;
-
   text-align: center;
   line-height: 154.9%;
   letter-spacing: 0.8px;
@@ -37,4 +41,79 @@
 
 .brand {
   font-weight: 500;
+  font-size: 15px;
+}
+
+.heroTextSmall {
+  display: none;
+  position: absolute;
+  top: 180px;
+  left: 80px;
+  line-height: 154.9%;
+  letter-spacing: 0.8px;
+  width: 400px;
+}
+.heroTextSmallParagraph {
+  font-size: 16px;
+  font-weight: 500;
+}
+.registerButton {
+  display: block;
+  margin-top: 20px;
+  width: 160px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 2px;
+  background: var(--primaryColor);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1280px) {
+  .heroText {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .register {
+    display: none;
+  }
+  .heroText {
+    height: 300px;
+  }
+  .heroTextSmall {
+    display: block;
+    left: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    max-width: 640px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .wrapper {
+    max-width: 475px;
+  }
+  .heroText {
+    height: 400px;
+  }
+  .heroTextSmall {
+    left: 20px;
+  }
+  .heroTextSmall {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .image {
+    background-image: url("/");
+    background-color: #f5f1f2;
+  }
 }

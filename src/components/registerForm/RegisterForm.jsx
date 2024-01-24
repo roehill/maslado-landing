@@ -3,6 +3,7 @@ import { useState } from "react";
 import FormInput from "../formInput/FormInput";
 import styles from "./registerForm.module.css";
 import axios from "axios";
+import Link from "next/link";
 
 const RegisterForm = () => {
   const [isConfirmed, setIsConfirmed] = useState(false);
@@ -30,10 +31,8 @@ const RegisterForm = () => {
       name: "name",
       type: "text",
       label: "Twoje imię i nazwisko",
-      errorMessage:
-        "Imie i nazwisko musi zawierać co najmniej 3 litery oraz nie może zawierać znaków specjalnych.",
-      pattern:
-        "^[A-Za-zAaĄąBbCcĆćDdEeĘęFfGgHhIiJjKkLlŁłMmNnŃńOoÓóPpRrSsŚśTtUuWwYyZzŹźŻż ]{3,50}$",
+      errorMessage: "Imie i nazwisko musi zawierać co najmniej 3 litery oraz nie może zawierać znaków specjalnych.",
+      pattern: "^[A-Za-zAaĄąBbCcĆćDdEeĘęFfGgHhIiJjKkLlŁłMmNnŃńOoÓóPpRrSsŚśTtUuWwYyZzŹźŻż ]{3,50}$",
       required: true,
     },
     {
@@ -74,7 +73,7 @@ const RegisterForm = () => {
     };
 
     await axios
-      .post("https://api.easyselection.pl/api/users/signup", user)
+      .post("https://www.maslado-api.com/api/users/signup", user)
       .then((response) => {
         setIsConfirmed(true);
       })
@@ -91,15 +90,13 @@ const RegisterForm = () => {
     <form className={styles.container} onSubmit={registerUser}>
       {isConfirmed ? (
         <p className={styles.confirm}>
-          Konto zostało poprawnie utworzone.<br></br> Link aktywacyjny został
-          wysłany na podany adres email - <b>{values.email}</b>
+          Konto zostało poprawnie utworzone.<br></br> Link aktywacyjny został wysłany na podany adres email -{" "}
+          <b>{values.email}</b>
           <br></br> Postępuj zgodnie z instrukcją aby aktywować swoje konto.
         </p>
       ) : (
         <>
-          <h2 className={styles.title}>
-            Wypełnij formularz i załóż darmowe konto.
-          </h2>
+          <h2 className={styles.title}>Wypełnij formularz i załóż darmowe konto.</h2>
           {inputs.map((input) => (
             <FormInput
               key={input.id}
@@ -111,8 +108,11 @@ const RegisterForm = () => {
           ))}
           {error && <p className={styles.error}>{error}</p>}
           <p className={styles.terms}>
-            Zakładając konto, wyrażasz zgodę na warunki korzystania z usług
-            serwisu Maslado
+            Zakładając konto, wyrażasz zgodę na{" "}
+            <Link className={styles.privacyPolicy} href="https://app.maslado.com/privacy-policy">
+              warunki korzystania
+            </Link>{" "}
+            z usług serwisu Maslado
           </p>
           <button className={styles.submitButton} type="submit">
             Zarejestruj się
