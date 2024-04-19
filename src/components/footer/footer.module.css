@@ -1,3 +1,5 @@
+@import url("../../styles/variables.css");
+
 .container {
   position: relative;
   text-align: center;
@@ -14,15 +16,46 @@
 }
 
 .footerBody {
-  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+  padding: 40px 0;
+  font-size: 14px;
   /* width: 600px; */
   margin: 0 auto;
   color: white;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+/* .link {
+  color: white;
+} */
+
+.link:hover {
+  color: var(--primaryColor);
+}
+
+.contactFormLink {
+  font-weight: 500;
 }
 
 .brand {
   font-weight: 500;
 }
 
-@media screen and (max-width: 640px) {
-}
+/* @media screen and (min-width: 1024px) {
+  .footerBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    padding: 40px 0;
+  }
+} */
