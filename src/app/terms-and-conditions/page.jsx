@@ -165,7 +165,52 @@ const page = () => {
         przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).
       </p>
 
-      <h2>§ 7. Postanowienia końcowe</h2>
+      <h2>§ 7. Postępowanie reklamacyjne</h2>
+      <p>
+        Reklamacje należy składać drogą elektroniczną. Adres poczty elektronicznej służący do składania reklamacji to
+        kontakt@maslado.com
+      </p>
+      <p>
+        Prawidłowo złożona reklamacja powinna zawierać:<br></br> - Oznaczenie tematu wiadomości słowem "Reklamacja".
+        <br></br> - Podanie w treści wiadomości danych użytkownika, którego dotyczy reklamacja. W tym imię i nazwisko,
+        adres pocztowy na który zostało założone konto na platformie Maslado, numer telefoniczny.<br></br>- Szczegółowe
+        opisanie problemu, którego dotyczy reklamacja. <br></br> - W miarę możliwości fotodokumentacja reklamacji.
+      </p>
+      <p>
+        Zgłoszone reklamacje zostaną rozpatrzone przez Administratora niezwłocznie, nie póżniej niż w terminie 14 dni
+        roboczych.
+      </p>
+
+      <h2>§ 8. Odstąpienie od umowy</h2>
+      <p>
+        Usługobiorcy, będącemu konsumentem (w rozumieniu art. 22¹ ustawy z dnia 23 kwietnia 1964 r. Kodeks cywilny
+        (Dz.U.z 2020 r. poz. 1740, t.j. z dnia 2020.10.08) („Konsument”) przysługuje prawo odstąpienia od Umowy w
+        terminie 14 dni od dnia jej zawarcia, bez podania przyczyny odstąpienia.
+      </p>
+      <p>
+        Aby skorzystać z prawa odstąpienia od Umowy, o którym mowa powyżej, należy poinformować Administratora o decyzji
+        o odstąpieniu od Umowy w drodze jednoznacznego oświadczenia, wysłanego za pośrednictwem poczty elektronicznej na
+        adres kontakt@maslado.com. Aby zachować termin do odstąpienia od Umowy, należy wysłać informację dotyczącą
+        wykonania przysługującego prawa odstąpienia od Umowy przed upływem terminu do odstąpienia od Umowy.
+      </p>
+      <p>
+        W przypadku odstąpienia od Umowy Administrator zwróci wszystkie otrzymane od Usługobiorcy płatności,
+        niezwłocznie, a w każdym przypadku nie później niż 14 dni od dnia doręczenia oświadczenia o odstąpieniu od
+        Umowy. Zwrot płatności zostanie dokonany przy użyciu takich samych sposobów płatności, jakie zostały użyte w
+        pierwotnej transakcji, chyba że Usługobiorca wyrazi zgodę na inne rozwiązanie.
+      </p>
+
+      <h2>§ 9. Czas realizacji zamówienia</h2>
+      <p>
+        Usługobiorca po wybraniu pakietu oraz dokonaniu poprawnej płatności otrzymuje dostęp do Usługi niezwłocznie po
+        otrzymaniu przez System informacji o otrzymaniu płatności.
+      </p>
+      <p>
+        O poprawnym dodaniu zakupionego pakietu Usługobiorca otrzyma powiadomienie pocztą elektroniczną na adres podany
+        podczas zakładania konta.
+      </p>
+
+      <h2>§ 10. Postanowienia końcowe</h2>
       <p>
         Usługobiorca oświadcza, iż zapoznał się z Regulaminem oraz Polityką Prywatności, rozumie treść tych dokumentów i
         w pełni je akceptuje oraz zobowiązuje się do ich przestrzegania.
