@@ -109,10 +109,14 @@ const RegisterForm = () => {
           {error && <p className={styles.error}>{error}</p>}
           <p className={styles.terms}>
             Zakładając konto, wyrażasz zgodę na{" "}
-            <Link className={styles.privacyPolicy} href="https://app.maslado.com/privacy-policy">
-              warunki korzystania
+            <Link className={styles.privacyPolicy} href="/terms-and-conditions/">
+              regulamin
             </Link>{" "}
-            z usług serwisu Maslado
+            oraz{" "}
+            <Link className={styles.privacyPolicy} href="/privacy-policy/">
+              politykę prywatności
+            </Link>{" "}
+            platformy Maslado
           </p>
           <button className={styles.submitButton} type="submit">
             Zarejestruj się

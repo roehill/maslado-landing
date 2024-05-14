@@ -1,0 +1,98 @@
+.container {
+  padding: 40px 0 60px 0;
+  text-align: center;
+  h2 {
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+  .pricingCards {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    .pricingCard {
+      position: relative;
+      padding: 40px;
+      box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.13);
+      border-radius: 8px;
+      text-align: left;
+      .discount {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        border: 3px solid #0096ea;
+        border-radius: 50%;
+        .discountAmount {
+          color: #494949;
+          font-size: 18px;
+          font-weight: 700;
+          transform: rotate(15deg);
+        }
+      }
+      h3 {
+        color: #494949;
+        font-size: 22px;
+        font-weight: 700;
+      }
+      h4 {
+        color: #b9b9b9;
+        font-size: 30px;
+        font-weight: 400;
+        .brutto {
+          font-size: 14px;
+        }
+      }
+      .functionalities {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .functionality {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          height: 30px;
+          .icon {
+            display: flex;
+          }
+          p {
+            display: inline;
+          }
+        }
+      }
+      .callToAction {
+        background-color: #0096ea;
+        width: 100%;
+        color: white;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 45px;
+        border-radius: 2px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1024px) {
+  .pricingCards {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pricingCards {
+    flex-direction: column;
+  }
+}

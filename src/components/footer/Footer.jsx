@@ -15,10 +15,10 @@ const Footer = () => {
         <div className={styles.links}>
           {" "}
           <p>2024 © Maslado. </p>
-          <Link href="https://maslado.com/terms-and-conditions" className={styles.link}>
+          <Link href="/terms-and-conditions/" className={styles.link}>
             Regulamin
           </Link>
-          <Link href="https://maslado.com/privacy-policy" className={styles.link}>
+          <Link href="/privacy-policy/" className={styles.link}>
             Polityka prywatności
           </Link>
         </div>
