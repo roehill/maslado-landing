@@ -8,6 +8,11 @@
   box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.13);
 }
 
+.message {
+  padding-top: 40px;
+  line-height: 25px;
+}
+
 .title {
   text-align: center;
   font-size: 18px;

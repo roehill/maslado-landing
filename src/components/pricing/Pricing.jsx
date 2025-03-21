@@ -16,7 +16,7 @@ const Pricing = () => {
       functionalities: [
         "3 darmowe galerie na start",
         "wszystkie dostępne narzędzia",
-        "limit 500 zdjęć",
+        "limit 200 zdjęć",
         "wsparcie społeczności",
       ],
       actionButton: {
@@ -29,7 +29,12 @@ const Pricing = () => {
       title: "Pojedyncza",
       price: "9",
       discount: null,
-      functionalities: ["1 galeria", "wszystkie dostępne narzędzia", "brak limitu zdjęć", "support 24/7"],
+      functionalities: [
+        "1 galeria",
+        "wszystkie dostępne narzędzia",
+        "galeria do 500 zdjęć",
+        "support w godzinach 9 - 18",
+      ],
       actionButton: {
         title: "Kup teraz",
         redirect: "/packages",
@@ -38,9 +43,9 @@ const Pricing = () => {
     {
       id: 3,
       title: "Pakiet 10",
-      price: "72",
-      discount: "-20%",
-      functionalities: ["10 galerii", "wszystkie dostępne narzędzia", "brak limitu zdjęć", "support 24/7"],
+      price: "81",
+      discount: "-10%",
+      functionalities: ["10 galerii", "wszystkie dostępne narzędzia", "galeria do 500 zdjęć", "support 24/7"],
       actionButton: {
         title: "Kup teraz",
         redirect: "/packages",
@@ -49,9 +54,9 @@ const Pricing = () => {
     {
       id: 4,
       title: "Pakiet 30",
-      price: "189",
-      discount: "-30%",
-      functionalities: ["30 galerii", "wszystkie dostępne narzędzia", "brak limitu zdjęć", "support 24/7"],
+      price: "216",
+      discount: "-20%",
+      functionalities: ["30 galerii", "wszystkie dostępne narzędzia", "galeria do 500 zdjęć", "support 24/7"],
       actionButton: {
         title: "Kup teraz",
         redirect: "/packages",

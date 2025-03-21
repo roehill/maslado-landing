@@ -9,14 +9,21 @@ const Header = () => {
         <div className={styles.image}></div>
       </div>
       <div className={styles.heroTextSmall}>
-        <h4 className={styles.heroTextSmallParagraph}>
+        <h2>📢 Maslado startuje 5 kwietnia!</h2>
+        <p className={styles.message}>
+          Zakończyliśmy okres testowy i z radością ogłaszamy, że oficjalne uruchomienie aplikacji nastąpi 5 kwietnia. Do
+          tego czasu rejestracja pozostaje niedostępna, ale już wkrótce każdy będzie mógł dołączyć. <br></br>
+          <br></br>Do zobaczenia na starcie! 📷
+        </p>
+
+        {/* <h4 className={styles.heroTextSmallParagraph}>
           Wybij się z tłumu jako profesjonalny fotograf! Dołącz do Maslado i zyskaj dostęp do narzędzi do zarządzania,
           prezentacji i zarabiania na swojej pasji. Załóż konto już teraz i rozpocznij swoją niesamowitą podróż
           fotograficzną z nami!
         </h4>
         <Link href="https://app.maslado.com/registration" className={styles.registerButton}>
           Zarejestruj się
-        </Link>
+        </Link> */}
       </div>
       <div className={styles.heroText}>
         <div className={styles.register}>

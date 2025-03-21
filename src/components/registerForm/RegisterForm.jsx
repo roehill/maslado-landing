@@ -96,32 +96,41 @@ const RegisterForm = () => {
         </p>
       ) : (
         <>
-          <h2 className={styles.title}>Wypełnij formularz i załóż darmowe konto.</h2>
-          {inputs.map((input) => (
-            <FormInput
-              key={input.id}
-              {...input}
-              value={values[input.name]}
-              onChange={onChange}
-              background={"#e9e9e9"}
-            />
-          ))}
-          {error && <p className={styles.error}>{error}</p>}
-          <p className={styles.terms}>
-            Zakładając konto, wyrażasz zgodę na{" "}
-            <Link className={styles.privacyPolicy} href="/terms-and-conditions/">
-              regulamin
-            </Link>{" "}
-            oraz{" "}
-            <Link className={styles.privacyPolicy} href="/privacy-policy/">
-              politykę prywatności
-            </Link>{" "}
-            platformy Maslado
+          <h2>📢 Maslado startuje 5 kwietnia!</h2>
+          <p className={styles.message}>
+            Zakończyliśmy okres testowy i z radością ogłaszamy, że oficjalne uruchomienie aplikacji nastąpi 5 kwietnia.
+            Do tego czasu rejestracja pozostaje niedostępna, ale już wkrótce każdy będzie mógł dołączyć. <br></br>
+            <br></br>Do zobaczenia na starcie! 📷
           </p>
-          <button className={styles.submitButton} type="submit">
-            Zarejestruj się
-          </button>
         </>
+
+        // <>
+        //   <h2 className={styles.title}>Wypełnij formularz i załóż darmowe konto.</h2>
+        //   {inputs.map((input) => (
+        //     <FormInput
+        //       key={input.id}
+        //       {...input}
+        //       value={values[input.name]}
+        //       onChange={onChange}
+        //       background={"#e9e9e9"}
+        //     />
+        //   ))}
+        //   {error && <p className={styles.error}>{error}</p>}
+        //   <p className={styles.terms}>
+        //     Zakładając konto, wyrażasz zgodę na{" "}
+        //     <Link className={styles.privacyPolicy} href="/terms-and-conditions/">
+        //       regulamin
+        //     </Link>{" "}
+        //     oraz{" "}
+        //     <Link className={styles.privacyPolicy} href="/privacy-policy/">
+        //       politykę prywatności
+        //     </Link>{" "}
+        //     platformy Maslado
+        //   </p>
+        //   <button className={styles.submitButton} type="submit">
+        //     Zarejestruj się
+        //   </button>
+        // </>
       )}
     </form>
   );
